@@ -4,12 +4,18 @@ import './Home.css';
 function Home() {
   return (
     <div className="home-container">
-      <div className="home-content">
-        <h1 className="home-hello">Hello :)</h1>
-        <h2 className="home-signature">My name is Tomislav Lovrenčić</h2>
+      <div className="name-container">
+        <h1 className="home-firstname">Tomislav</h1>
+        <h1 className="home-lastname">Lovrenčić</h1>
+      </div>
+      <div className="description-container">
         <p className="home-description">
-          I am a Full Stack Engineer with a passion for creating modern and efficient web applications.
+          I'm a <span className="highlight">Software Engineer</span> experienced in <span className="highlight">Java</span>, <span className="highlight">Golang</span>, <span className="highlight">JavaScript</span>, <span className="highlight">React</span>, and much more. I love going the extra mile and have a passion for creating modern and efficient web applications. I enjoy turning complex problems into simple, beautiful, and intuitive designs.
         </p>
+        <div className="button-container">
+          <a href="#!" className="custom-button">Download CV</a>
+          <a href="#!" className="custom-button">GitHub</a>
+        </div>
       </div>
     </div>
   );
