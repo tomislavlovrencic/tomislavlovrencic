@@ -1,0 +1,25 @@
+.header-navbar {
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav-links {
+  display: flex;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  justify-content: flex-end;
+  padding-right: 10em;
+  padding-top: 3.5em;
+  font-size: 0.9em;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #004150;
+  font-size: 1em;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #dd5f61;
+}

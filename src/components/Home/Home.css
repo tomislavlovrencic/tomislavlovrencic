@@ -1,0 +1,26 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10em;
+    text-align: center;
+}
+
+.home-hello {
+    font-size: 4em;
+    margin: 0;
+    color: #004150;
+}
+
+.home-signature {
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+    color: #dd5f61;
+    margin: 10px 0;
+}
+
+.home-description {
+    font-size: 1.2em;
+    color: #004150;
+    margin: 10px 0;
+    }
