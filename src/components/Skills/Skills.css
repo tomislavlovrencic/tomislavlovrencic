@@ -1,0 +1,56 @@
+.skills-container {
+    display: flex;
+    margin-top: 2em;
+    justify-content: space-around;
+    padding: 2em 1em;
+    background-color: white;
+    margin-bottom: 2em;
+  }
+  
+  .skills-group {
+    width: 30%;
+  }
+  
+  .skills-category-title {
+    font-size: 1.3em;
+    color: #004150;
+    margin-bottom: 1.2em;
+    text-align: left;
+  }
+  
+  .skill-item {
+    margin-bottom: 1em;
+  }
+  
+  .skill-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 1em;
+  }
+  
+  .skill-name {
+    font-size: 1.1em;
+    color: #004150;
+  }
+  
+  .skill-level {
+    font-size: 0.8em;
+    color: #e0e0e0;
+  }
+  
+  .skill-bar {
+    height: 10px; /* Increase the height slightly for a better visual effect */
+    border-radius: 10px;
+    border: 2px solid #e0e0e0; /* Grey border */
+    background-color: white; /* White background inside the bar */
+    padding: 2px; /* Padding to create space between the border and the fill */
+    box-sizing: border-box; /* Ensure padding is included in the total width/height */
+}
+  
+.skill-bar .MuiLinearProgress-bar {
+    background-color: #dd5f61;
+    border-radius: 8px; /* Adjust the border-radius to fit inside the padded area */
+}
+  

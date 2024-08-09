@@ -1,6 +1,7 @@
 import Experience from "./components/Experience/Experience";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
+import Skills from "./components/Skills/Skills";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Home />
       <Experience />
+      <Skills />
     </div>
   );
 }
