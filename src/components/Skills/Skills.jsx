@@ -22,19 +22,10 @@ function Skills() {
         { name: 'AWS', level: 80 },
         { name: 'Version Control (Git)', level: 95 },
         { name: 'Docker', level: 85 },
-        { name: 'Mongo', level: 90 },
-        { name: 'K8 (Kubernetes)', level: 80 },
-        { name: 'Version Control (Git)', level: 95 },
+        { name: 'Kubernetes', level: 80 },
         { name: 'Prometheus', level: 85 },
       ],
     },
-    {
-        category: 'Speaking Languages',
-        items: [
-          { name: 'Croatian', level: 100 },
-          { name: 'English', level: 95 },
-        ],
-      },
   ];
 
   return (
