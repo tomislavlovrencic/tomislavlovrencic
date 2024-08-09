@@ -7,8 +7,8 @@ function Header() {
       <nav className="nav-links">
           <a href="#about">HOME</a>
           <a href="#experience">EXPERIENCE</a>
-          <a href="#projects">PROJECTS</a>
-          <a href="#contact">CONTACTS</a>
+          <a href="#projects">ABOUT ME</a>
+          <a href="#contact">CONTACT</a>
         </nav>
     </header>
   );
