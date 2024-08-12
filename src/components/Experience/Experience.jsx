@@ -54,9 +54,9 @@ const experienceData = [
 const Experience = () => {
   return (
     <section className="experience-container">
-      <Timeline position="alternate">
+      <Timeline position="alternate-reverse">
         {experienceData.map((item, index) => (
-          <TimelineItem key={index}>
+          <TimelineItem key={index} className="timeline-item">
             <TimelineOppositeContent>
               <Typography variant="body2" color="textSecondary">
                 {item.date}

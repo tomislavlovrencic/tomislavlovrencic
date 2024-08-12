@@ -3,8 +3,6 @@
 }
 
 .timeline-content {
-  border-radius: 30px;
-  box-shadow: 0 0.9px #dd5f61;
   text-align: left !important;
 }
 
@@ -27,6 +25,7 @@
   padding: 0;
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: small;
+  padding-bottom: 3em;
 }
 
 .timeline-content li {
