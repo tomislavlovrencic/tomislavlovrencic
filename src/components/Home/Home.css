@@ -1,38 +1,42 @@
 .home-container {
     display: flex;
-    justify-content: center;
     align-items: center;
     height: 100vh;
-    box-sizing: border-box;
 }
 
 .name-container {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin-right: 10em;
-    margin-bottom: 0;
+    padding: 3em;
+}
+
+.home-hi {
+    font-size: 3.5em;
+    color: #004150;
 }
 
 .home-firstname {
     font-size: 6em;
     font-family: 'Comic Sans MS', 'Comic Sans', cursive;
     color: #dd5f61;
-    margin-bottom: 0;
+    margin: 0;
+    margin-bottom: -0.2em;
 }
 
 .home-lastname {
     font-size: 10.5em;
     margin-top: 0;
     color: #004150;
+    padding-bottom: 0.6em;
 }
 
 .description-container {
-    max-width: 400px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
+    padding: 3em;
 }
 
 .home-description {
