@@ -1,14 +1,8 @@
-.header-navbar {
-  width: 100%;
-}
-
 .nav-links {
   display: flex;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   justify-content: flex-end;
-  padding-right: 10em;
-  padding-top: 3.5em;
-  font-size: 0.9em;
+  font-size: 1.1em;
 }
 
 .nav-links a {
@@ -21,4 +15,7 @@
 
 .nav-links a:hover {
   color: #dd5f61;
+  text-decoration: underline;
+  text-decoration-thickness: 1.6px;
+  text-decoration-color: #dd5f61;
 }
