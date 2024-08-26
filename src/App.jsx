@@ -1,3 +1,4 @@
+import AboutMe from "./components/AboutMe/AboutMe";
 import Experience from "./components/Experience/Experience";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
@@ -10,6 +11,7 @@ function App() {
       <Home />
       <Experience />
       <Skills />
+      <AboutMe />
     </div>
   );
 }

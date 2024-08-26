@@ -1,0 +1,71 @@
+.about-me-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-title {
+    font-size: 2em;
+    color: #004150;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.personal-and-photo {
+    display: flex;
+    align-items: center;
+    gap: 10em;
+    justify-content: flex-start;
+    margin-bottom: 2em;
+}
+
+.personal-details {
+    text-align: left;
+}
+
+.details-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1em;
+}
+
+.details-list li {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+.social-links {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1em;
+}
+
+.social-icon {
+    font-size: 2em;
+    color: #004150;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #dd5f61;
+}
+
+.profile-photo {
+    width: 9em;
+    height: 12em;
+    border-radius: 40%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-life {
+    max-width: 800px;
+    text-align: left;
+    margin-top: 2em;
+}
+
+.about-text {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    margin-bottom: 1.5em;
+}
