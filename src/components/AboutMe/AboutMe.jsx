@@ -2,7 +2,7 @@ import React from 'react';
 import './AboutMe.css';
 import tompaImage from '../../assets/images/tompa-small.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGit, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const AboutMe = () => {
     return (
@@ -16,7 +16,7 @@ const AboutMe = () => {
                         <li><strong>Email:</strong> tomislav.lovrencic1999@gmail.com</li>
                     </ul>
                     <div className="social-links">
-                        <FontAwesomeIcon icon={faGit} className="social-icon" />
+                        <FontAwesomeIcon icon={faGithub} className="social-icon" />
                         <FontAwesomeIcon icon={faLinkedin} className="social-icon" />
                     </div>
                 </section>

@@ -2,7 +2,7 @@
     display: flex;
     align-items: flex-start;
     height: 100vh;
-    background-image: url('src/assets/images/tomislav.png');
+    background-image: url('src/assets/images/pozadina-test.png');
     background-repeat: no-repeat;
     background-size: 110% 90%;
 }
