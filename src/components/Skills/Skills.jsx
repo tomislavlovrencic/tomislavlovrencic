@@ -12,7 +12,7 @@ import {
   faAws,
 } from '@fortawesome/free-brands-svg-icons';
 
-import { faDatabase, faCircleNodes, faCloudBolt } from '@fortawesome/free-solid-svg-icons';
+import { faDatabase, faCircleNodes, faCloudBolt, faTimeline, faCode, faChartBar } from '@fortawesome/free-solid-svg-icons';
 
 
 function Skills() {
@@ -35,9 +35,13 @@ function Skills() {
         { name: 'Version Control (Git)', level: 95, icon: faGit },
         { name: 'Docker', level: 85, icon: faDocker },
         { name: 'Kubernetes', level: 80, icon: faCircleNodes },
-        { name: 'Prometheus', level: 85, icon: faCloudBolt }, 
+        { name: 'Prometheus', level: 85, icon: faCloudBolt },
+        { name: 'CI/CD', level: 90, icon: faTimeline },  
+        { name: 'Terraform', level: 70, icon: faCode }, 
+        { name: 'Grafana', level: 95, icon: faChartBar },   
       ],
-    },
+    }
+    
   ];
 
   return (
