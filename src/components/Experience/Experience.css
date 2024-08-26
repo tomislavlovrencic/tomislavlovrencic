@@ -3,24 +3,24 @@
 }
 
 .timeline-title {
-  font-size: 1.5em;
+  font-size: 1.8em !important;
   color: #dd5f61;
   margin: 0 0 10px 0;
 }
 
 .timeline-subtitle {
-  font-size: 1em;
+  font-size: 1em !important;
   color: #555;
   margin: 5px 0 10px 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Space Grotesk', sans-serif !important;
 }
 
 .timeline-content ul {
   list-style-type: square;
   margin: 10px 0 0 20px;
   padding: 0;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: small;
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
   padding-bottom: 3em;
 }
 
