@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
@@ -32,6 +32,11 @@ const Footer = () => {
                 <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Twitter">
                     <FontAwesomeIcon icon={faTwitter} />
                 </a>
+            </div>
+            <div className="footer-extra">
+                <p className="footer-handcrafted">
+                    Handcrafted with <span className="heart-emoji">❤️</span> by Tomislav Lovrenčić
+                </p>
             </div>
         </footer>
     );

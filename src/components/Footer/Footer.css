@@ -7,7 +7,7 @@
     margin-right: calc(-50vw + 50%);
     border-top: 3px solid #dd5f61;
     box-sizing: border-box;
-    margin-bottom: -1.5em;
+    margin-bottom: -2.5em;
 }
 
 .footer-title {
@@ -38,4 +38,25 @@
 
 .social-icon:hover {
     color: #dd5f61;
+}
+
+.footer-extra {
+    margin-top: 2em;
+    text-align: center;
+    color: #666;
+}
+
+.footer-handcrafted {
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+}
+
+.heart-emoji {
+    animation: beat 1.5s infinite;
+    display: inline-block;
+}
+
+@keyframes beat {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
 }
