@@ -14,8 +14,10 @@ const AboutMe = () => {
                     <section className="personal-details">
                         <ul className="details-list">
                             <li><strong>Age:</strong> 25</li>
-                            <li><strong>Location:</strong> Zagreb, Croatia</li>
+                            <li><strong>Location:</strong> Zagreb, Croatia </li>
                             <li><strong>Email:</strong> tomislav.lovrencic1999@gmail.com</li>
+                            <li><strong>Phone:</strong> +385 91 245 6688</li>
+                            <li><strong>Languages:</strong> Croatian (native), English (fluent)</li>
                         </ul>
                         <div className="social-links">
                             <FontAwesomeIcon icon={faGithub} className="social-icon" />

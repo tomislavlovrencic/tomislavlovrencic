@@ -6,8 +6,8 @@
 .about-me-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 2em;
+    padding: 1.5em;
+    width: 100%;
 }
 
 .section-title {
@@ -23,9 +23,7 @@
 
 .personal-and-photo {
     display: flex;
-    align-items: center;
-    gap: 5em;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 2em;
 }
 
