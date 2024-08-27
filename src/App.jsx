@@ -10,6 +10,7 @@ function App() {
     <div>
       <Header />
       <Home />
+      <Experience />
     </div>
   );
 }

@@ -37,3 +37,41 @@
 .timeline-dot {
   background-color: #dd5f61 !important;
 }
+
+@media (max-width: 768px) {
+  .MuiTimeline-root {
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .timeline-title {
+    font-size: 1.3em !important;
+    color: #dd5f61;
+  }
+
+  .timeline-subtitle {
+    font-size: 1em !important;
+    color: #555;
+    margin: 5px 0 10px 0;
+    font-family: 'Space Grotesk', sans-serif !important;
+  }
+
+  .timeline-content li {
+    font-size: 1em;
+    color: black;
+  }
+
+  .MuiTimelineOppositeContent-root {
+    display: none !important;
+  }
+
+  .timeline-dot {
+    display: none !important;
+  }
+
+  .timeline-connector {
+    display: none;
+  }
+}
