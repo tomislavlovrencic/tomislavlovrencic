@@ -1,30 +1,32 @@
 .home-container {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: space-between;
     height: 100vh;
-    background-image: url('src/assets/images/pozadina-test.png');
-    background-repeat: no-repeat;
-    background-size: 110% 90%;
 }
 
 .name-container {
     display: flex;
     flex-direction: column;
-    justify-content: center; 
-    height: 100vh;
-    margin-bottom: 1em;
+    max-width: 50%;
 }
 
 .home-firstname {
-    font-size: 6em;
+    font-size: 6vw;
     font-family: 'Comic Sans MS', 'Comic Sans', cursive;
     color: #dd5f61;
     margin: 0;
     margin-bottom: -0.5em;
 }
 
+.home-profile-photo {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .home-lastname {
-    font-size: 9.5em;
+    font-size: 8.5vw;
     color: #004150;
     margin: 0;
 }
@@ -33,7 +35,6 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-    max-width: 50em;
 }
 
 .home-description {
@@ -64,4 +65,75 @@
 .custom-button:hover {
     background-color: #dd5f61;
     transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .home-container {
+        display: flex;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    .name-container {
+        display: flex;
+        flex-direction: column;
+        padding: auto;
+        max-width: 100%;
+    }
+    
+    .home-firstname {
+        font-size: 10vw;
+        font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+        color: #dd5f61;
+        margin: 0;
+        text-align: center;
+        margin-bottom: -0.5em;
+    }
+    
+    .home-profile-photo {
+        display: none;
+    }
+    
+    .home-lastname {
+        font-size: 20vw;
+        color: #004150;
+        margin: 0;
+    }
+    
+    .description-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 5em;
+    }
+    
+    .home-description {
+        font-size: 1.2em;
+        color: #004150;
+        margin: 0 0 20px 0;
+    }
+    
+    .highlight {
+        color: #dd5f61;
+    }
+    
+    .button-container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .custom-button {
+        padding: 10px 20px;
+        background-color: #004150;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        font-size: 1em;
+    }
+    
+    .custom-button:hover {
+        background-color: #dd5f61;
+        transform: scale(1.05);
+    }
 }

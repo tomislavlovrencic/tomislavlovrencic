@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import tompaImage from '../../assets/images/pozadina-test2.png';
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <img src={tompaImage} alt="Tomislav Lovrenčić" className="home-profile-photo" />
     </div>
   );
 }
