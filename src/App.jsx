@@ -9,9 +9,7 @@ function App() {
   return (
     <div>
       <Header />
-      <section id="home">
-        <Home />
-      </section>
+      <Home />
       <section id="experience">
         <Experience />
       </section>

@@ -21,7 +21,6 @@ function Header() {
         ☰
       </button>
       <nav className={`nav-links ${isOpen ? 'open' : ''}`}>
-        <a href="#home" onClick={(e) => handleScroll(e, 'home')}>HOME</a>
         <a href="#experience" onClick={(e) => handleScroll(e, 'experience')}>EXPERIENCE</a>
         <a href="#about" onClick={(e) => handleScroll(e, 'about')}>ABOUT ME</a>
         <a href="#contact" onClick={(e) => handleScroll(e, 'contact')}>CONTACT</a>
