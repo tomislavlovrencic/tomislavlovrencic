@@ -60,3 +60,11 @@
     0%, 100% { transform: scale(1); }
     50% { transform: scale(1.2); }
 }
+
+@media (max-width: 768px) {
+    .social-icons {
+        display: flex;
+        gap: 5vw;
+        margin-top: 1em;
+    }
+}
