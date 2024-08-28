@@ -8,16 +8,23 @@ function Header() {
     setIsOpen(!isOpen);
   };
 
+  const handleScroll = (event, sectionId) => {
+    event.preventDefault();
+    const section = document.getElementById(sectionId);
+    section.scrollIntoView({ behavior: 'smooth' });
+    setIsOpen(false);
+  };
+
   return (
     <header className="header-navbar">
       <button className="hamburger" onClick={toggleMenu}>
         ☰
       </button>
       <nav className={`nav-links ${isOpen ? 'open' : ''}`}>
-        <a href="#about">HOME</a>
-        <a href="#experience">EXPERIENCE</a>
-        <a href="#projects">ABOUT ME</a>
-        <a href="#contact">CONTACT</a>
+        <a href="#home" onClick={(e) => handleScroll(e, 'home')}>HOME</a>
+        <a href="#experience" onClick={(e) => handleScroll(e, 'experience')}>EXPERIENCE</a>
+        <a href="#about" onClick={(e) => handleScroll(e, 'about')}>ABOUT ME</a>
+        <a href="#contact" onClick={(e) => handleScroll(e, 'contact')}>CONTACT</a>
       </nav>
     </header>
   );

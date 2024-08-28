@@ -9,13 +9,20 @@ function App() {
   return (
     <div>
       <Header />
-      <Home />
-      <Experience />
-      <AboutMe />
-      <Footer />
+      <section id="home">
+        <Home />
+      </section>
+      <section id="experience">
+        <Experience />
+      </section>
+      <section id="about">
+        <AboutMe />
+      </section>
+      <section id="contact">
+        <Footer />
+      </section>
     </div>
   );
 }
 
 export default App;
-  
