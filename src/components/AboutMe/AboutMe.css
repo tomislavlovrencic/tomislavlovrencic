@@ -43,22 +43,6 @@
     margin: 0.5em 0;
 }
 
-.social-links {
-    display: flex;
-    flex-direction: row;
-    gap: 1em;
-}
-
-.social-icon {
-    font-size: 2em;
-    color: #004150;
-    transition: color 0.3s ease;
-}
-
-.social-icon:hover {
-    color: #dd5f61;
-}
-
 .profile-photo {
     width: 9em;
     height: 12em;

@@ -11,25 +11,19 @@ const Footer = () => {
             <p className="footer-subtitle">I’d love to hear from you! Whether you have a question, want to collaborate, or just want to say hi, feel free to drop a message.</p>
             
             <div className="social-icons">
-                <a href="mailto:tomislav@example.com" className="social-icon" aria-label="Email">
+                <a href="mailto:tomislav.lovrencic1999@gmail.com" className="social-icon" aria-label="Email">
                     <FontAwesomeIcon icon={faEnvelope} />
                 </a>
-                <a href="tel:+123456789" className="social-icon" aria-label="Phone">
-                    <FontAwesomeIcon icon={faPhoneAlt} />
-                </a>
-                <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="LinkedIn">
+                <a href="https://linkedin.com/in/tomislav-lovrencic" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="LinkedIn">
                     <FontAwesomeIcon icon={faLinkedin} />
                 </a>
-                <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="GitHub">
+                <a href="https://github.com/TomislavLovrencic" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="GitHub">
                     <FontAwesomeIcon icon={faGithub} />
                 </a>
-                <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Facebook">
-                    <FontAwesomeIcon icon={faFacebook} />
-                </a>
-                <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Instagram">
+                <a href="https://instagram.com/tomislavlovrencic" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Instagram">
                     <FontAwesomeIcon icon={faInstagram} />
                 </a>
-                <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Twitter">
+                <a href="https://twitter.com/tomislavlovrencic" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Twitter">
                     <FontAwesomeIcon icon={faTwitter} />
                 </a>
             </div>
