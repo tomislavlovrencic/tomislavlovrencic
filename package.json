@@ -1,7 +1,7 @@
 {
     "name": "react-essentials-start",
     "version": "0.0.0",
-    "homepage": "https://tomislav_lovrencic.github.io",
+    "homepage": "https://TomislavLovrencic.github.io/tomislavlovrencic",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
