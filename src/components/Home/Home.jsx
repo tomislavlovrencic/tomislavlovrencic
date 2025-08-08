@@ -1,25 +1,61 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import './Home.css';
-import tompaImage from '../../assets/images/pozadina-test2.png';
 import cvTompa from '../../assets/documents/Tomislav_Lovrencic_CV.pdf';
 
 function Home() {
+  const [isLoaded, setIsLoaded] = useState(false);
+  const textRef = useRef(null);
+  const buttonsRef = useRef(null);
+
+  useEffect(() => {
+    setTimeout(() => setIsLoaded(true), 100);
+  }, []);
+
+  useEffect(() => {
+    if (!isLoaded) return;
+
+    const elements = [
+      { ref: textRef, delay: 0 },
+      { ref: buttonsRef, delay: 0.8 }
+    ];
+
+    elements.forEach(({ ref, delay }) => {
+      setTimeout(() => {
+        if (ref.current) {
+          ref.current.classList.add('animate-in');
+        }
+      }, delay * 1000);
+    });
+  }, [isLoaded]);
+
   return (
     <div className="home-container">
-      <div className="name-container">
-        <h1 className="home-firstname">Tomislav</h1>
-        <h1 className="home-lastname">Lovrenčić</h1>
-        <div className="description-container">
-          <p className="home-description">
-            <span className="highlight">Software Developer</span> with a strong foundation in <span className="highlight">Java</span> and <span className="highlight">Golang</span>, and a growing expertise in <span className="highlight">JavaScript</span> and <span className="highlight">React</span>. Through dedicated self-learning and hands-on experience, I've developed this webpage as a side project to deepen my skills in React. My strengths lie in designing and implementing scalable microservices, optimizing system architectures, and enhancing software performance. I’m committed to continuous learning and always eager to take on new challenges.
-          </p>
-          <div className="button-container">
-          <a href={cvTompa} download className="custom-button">Download CV</a>
-          <a href="https://github.com/TomislavLovrencic" className="custom-button">GitHub</a>
+      {/* Main Content */}
+      <div className="home-content left-layout">
+        <div className="content-wrapper left-align">
+          <div className="main-text" ref={textRef}>
+            <h1 className="hero-text left-hero">
+              <span className="text-line">SOFTWARE ENGINEER.</span>
+              <span className="text-line">PASSIONATE ABOUT</span>
+              <span className="text-line">BUILDING, LEARNING,</span>
+              <span className="text-line">AND EXPLORING CODE.</span>
+            </h1>
+          </div>
+
+          <div className="action-section left-action" ref={buttonsRef}>
+            <div className="button-group left-buttons">
+              <a href={cvTompa} download className="premium-button primary">
+                <span className="button-text">Download CV</span>
+                <div className="button-underline"></div>
+              </a>
+              <a href="https://github.com/TomislavLovrencic" className="premium-button secondary" target="_blank" rel="noopener noreferrer">
+                <span className="button-text">GitHub</span>
+                <div className="button-underline"></div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-      <img src={tompaImage} alt="Tomislav Lovrenčić" className="home-profile-photo" />
     </div>
   );
 }
