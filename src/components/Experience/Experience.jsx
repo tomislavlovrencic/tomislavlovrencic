@@ -45,11 +45,11 @@ const Experience = () => {
         <div className="header-line"></div>
         <h2 className="experience-title">ALWAYS</h2>
         <h3 className="experience-main-text headline">
-          <span className="headline-word word-1">WRITTING</span>
+          <span className="headline-word word-1">DOING</span>
           <span className="headline-gap" />
-          <span className="headline-word word-2">BETTER</span>
+          <span className="headline-word word-2">MY</span>
           <span className="headline-gap" />
-          <span className="headline-word word-3">CODE.</span>
+          <span className="headline-word word-3">BEST.</span>
         </h3>
         <div className="header-line"></div>
       </div>

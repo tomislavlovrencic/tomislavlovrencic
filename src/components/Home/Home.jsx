@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './Home.css';
-import cvTompa from '../../assets/documents/Tomislav_Lovrencic_CV.pdf';
+import cvTompa from '../../assets/documents/Tomislav_Lovrencic_CV-page.pdf';
 
 function Home() {
   const [isLoaded, setIsLoaded] = useState(false);
